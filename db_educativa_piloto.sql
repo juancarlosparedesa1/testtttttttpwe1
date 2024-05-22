@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
+--
+-- Host: localhost    Database: db_educativa
+-- ------------------------------------------------------
+-- Server version	8.0.35
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `piloto`
+--
+
+LOCK TABLES `piloto` WRITE;
+/*!40000 ALTER TABLE `piloto` DISABLE KEYS */;
+INSERT INTO `piloto` VALUES (1000000,'Carlos Ortega','1979-12-01'),(2000000,'Freddy Larrea','1970-10-21'),(3000000,'Jose Vera','1972-11-14'),(4000000,'Efrain Bazurto','1984-12-01'),(5000000,'Manuel Reinoso','1985-12-03'),(6000000,'Pedro Ortega','1979-12-02'),(7000000,'Esteban Larrea','1970-12-21'),(8000000,'Jose Quintero','1972-11-18'),(9000000,'Efrain Péres','1980-12-18'),(1000000,'Juan Reinoso','1986-12-15'),(1100000,'Carlos Mendoza','1980-12-01'),(1200000,'Freddy López','1976-10-21'),(1300000,'Jose Carrasco','1978-11-14'),(1400000,'Efrain Herrea','1986-12-01'),(1500000,'Manuel Morales','1982-12-03'),(1600000,'Pedro Rosas','1977-12-02'),(170000,'Esteban Albornoz','1975-12-21'),(180000,'Jose Aguirre','1975-11-18'),(190000,'Efrain Portero','1962-12-18'),(200000,'Juan Veloz','1966-12-15'),(210000,'Carlos Gómez','1969-12-01'),(220000,'Freddy Bazurto','1960-10-21'),(230000,'Freddy Vera','1962-10-14'),(240000,'Manuel Tello','1964-12-01'),(250000,'Manuela Rivera','1965-12-03'),(260000,'Pablo Larrea','1969-12-02'),(270000,'Esteban Bonilla','1960-11-11'),(280000,'Carlos Quintero','1962-11-11'),(290000,'María Pérez','1982-12-18'),(300000,'Juan Espín','1981-12-12'),(310000,'Carla Mena','1968-12-01'),(320000,'Marco Medina','1966-10-21'),(330000,'Juan Carrillo','1968-11-13'),(340000,'Salomón Ruiz','1946-12-04'),(350000,'Lenin Parrales','1972-12-03'),(360000,'Pedro Herrea','1967-12-02'),(370000,'Ricardo Albornoz','1955-12-21'),(380000,'Jose Villalba','1995-10-18'),(390000,'Efrain Quiñonez','1972-11-18'),(400000,'Juan Gómez','1986-10-16');
+/*!40000 ALTER TABLE `piloto` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-05-06 10:37:25
